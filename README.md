@@ -31,8 +31,6 @@ cd copy_full_path
 ./install.sh
 ```
 
-Also in [Ubuntu Tuning Kit](https://github.com/J160KU/ubuntu-tuning-kit) as `tools/copy-full-path`.
-
 Log out and back in if Files does not show the menu item or fails to open from the app grid.
 
 ## Usage
