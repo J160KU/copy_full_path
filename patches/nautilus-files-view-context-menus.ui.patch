@@ -1,0 +1,29 @@
+--- a/src/resources/menu/nautilus-files-view-context-menus.ui
++++ b/src/resources/menu/nautilus-files-view-context-menus.ui
+@@ -1,6 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <interface>
+   <requires lib="gtk" version="4.0"/>
+   <menu id="background-menu">
++    <section>
++      <item>
++        <attribute name="label" translatable="yes">Copy Full Path</attribute>
++        <attribute name="action">app.copy-full-path</attribute>
++      </item>
++    </section>
+     <item>
+       <attribute name="label" translatable="yes">New _Folder…</attribute>
+       <attribute name="action">view.new-folder</attribute>
+@@ -55,6 +61,12 @@
+     </section>
+   </menu>
+   <menu id="selection-menu">
++    <section>
++      <item>
++        <attribute name="label" translatable="yes">Copy Full Path</attribute>
++        <attribute name="action">app.copy-full-path</attribute>
++      </item>
++    </section>
+     <section id="new-folder-with-selection-section"/>
+     <section id="open-with-application-section">
+       <item>
